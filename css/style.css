@@ -1,0 +1,172 @@
+*{
+  margin: 0px;
+  padding: 0px;  
+}    
+header{
+    background: rgb(19, 150, 237);
+    position: sticky;
+    top: 0px;
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+}
+.imagen-logo{
+   width: 300px;
+   height: 280px;
+}
+nav{
+    display: flex;
+    align-items: flex-end;
+}
+.nav-bar{
+    display: flex;
+    text-align: center;
+}
+.nav-bar li a{
+    color: white;
+    text-decoration: none;
+}
+.nav-bar li{
+    list-style: none;
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin: 0px 10px;
+}
+
+/*Comienza el body index-----------*/
+.section-principal{
+    text-align: center;
+}
+.titulo-principal{
+    font-size: 40px;
+    padding: 10px 0px;
+}
+.resumen-historia{
+    font-size: 35px;
+}
+.indexHistoria{
+    border-width:1px;
+    border-style: solid;
+    border-color:black;
+    margin: 15px 300px;
+    font-size: 30px;
+    padding: 10px 10px;
+}
+form{
+    text-align: center;
+}
+.formulario{
+    border-width:1px;
+    border-style: solid;
+    border-color:black;
+    text-align: center;
+    height: 800px;
+    width: 600px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+input{
+    width: 300px;
+    justify-content: center;
+    text-align: center;
+}
+.mapa{
+    text-align: center;
+    margin: 15px 0px;
+}
+
+
+
+
+
+
+/*comienza servicios.html*/
+.tituloServicios{
+    text-align: center;
+    padding: 20px 0px;
+    font-size: 50px;
+}
+.servicios{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.lista-servicios{
+    font-size: 30px;
+    padding: 10px 0px;
+}
+.imgServicios{
+    width: 30%;
+}
+.imgServicios img{
+    width: 400px;
+}
+
+/*COMIENZO GALERIA--------------------------*/
+.tituloBomMotor{
+    text-align: center;
+    font-size: 40px;
+    margin: 30px 0px;
+}
+.tituloBomSumergible{
+    text-align: center;
+    font-size: 40px;
+    margin: 30px 0px;
+}
+.tituloBomPiscina{
+    text-align: center;
+    font-size: 40px;
+    margin: 30px 0px;
+}
+.imgBomMotor{
+    background-color: brown;
+    display: grid;
+    height: 400px;
+}
+
+/*COMIENZO SOBRE NOSOTROS------------------*/
+.tituloNosotros{
+    padding: 20px 0px 5px 0px  ;
+    font-size: 35px;
+}
+.subTituloNosotros{
+    padding: 5px 0px 25px 0px  ;
+    font-size: 25px;
+}
+.sectionHistoriaImg{
+    display: flex;
+}
+.historiaImg{
+    font-size: 25px;
+    padding: 10px 30px;
+    flex: 70%;
+}
+.imgNosotros{
+    flex: 30%;
+}
+.nosotrosBomba{
+    width: 300px;
+
+}
+
+
+
+/*FOOTER-----------*/
+footer{
+    background-color: black;
+    height:80px ;
+}
+.enlaces-footer{
+    padding: 0px 10px;
+    font-size: 50px;
+    color: white;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: space-between;
+}

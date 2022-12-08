@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HidroBombaSur-Contactos</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./imagenes_HidroBombaSur/unnamed (5).jpg" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <img class="imagen-logo" src="./imagenes_HidroBombaSur/img1-logo-navegacion.png" alt="">
+        <nav class="menu-nav">
+            <ul class="nav-bar">
+                <li><a href="./index.html">Principal</a></li>
+                <li><a href="./servicios.html">Servicios</a></li>
+                <li><a href="./galeria.html">Galeria</a></li>
+                <li><a href="./contactos.html">Contactos</a></li>
+                <li><a href="./nosotros.html">Nosotros</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Comunicate con nosotros</h1>
+        <section>
+
+            <form action="">
+
+                <label for="nombreapellido">Nombre y apellido</label>
+                <input type="text"  id="nombreapellido" class="input-padron" required>
+
+                <label for="correoelectronico">Correo Electronico</label>
+                <input type="email" id="correoelectronico" class="input-padron" required placeholder="carlos@hotmail.com">
+
+                <label for="telefono">telefono</label>
+                <input type="tel" id="telefono" class="input-padron" required placeholder="(XX) XXXX-XXXX">
+
+                <label for="mensaje">mensaje</label>
+                <textarea id="mensaje" cols="70" rows="10" required></textarea>
+
+                <fieldset class="radio-contacto">
+
+                    <legend class=consulta-contacto>Como le gustaria que lo contactemos?</legend>
+
+                    <label for="radio-email"><input type="radio" name="contacto" value="email" id="radio-email" class="input-radio" checked>Email</label>
+                
+                    <label for="radio-telefono"><input type="radio" name="contacto" value="telefono" id="radio-telefono" class="input-radio">Telefono</label>
+                
+                    <label><input type="radio" name="contacto" value="whatsapp" class="input-radio">whatsapp</label>
+                </fieldset>
+
+                <fieldset class="horario">
+                    <legend class="consulta-contacto">En cual horario prefiere ser atendido?</legend>
+                    <select>
+                        <option value="Mañana">Mañana</option>
+                        <option value="Tarde">Tarde</option>
+                        <option value="Noche">Noche</option>
+                    </select>
+                </fieldset>
+
+                <label><input type="checkbox" checked>Le gustaria recibir novedades sobre HidroBombaSur?</label>
+                <input class="boton" type="submit" value="Enviar Formulario">
+
+            </form>
+
+        </section>
+
+
+        <section>
+
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Dia</th>
+                        <th>Apertura</th>
+                        <th>Cierre</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Lunes</td>
+                        <td>9:30 AM</td>
+                        <td>20:00 PM</td>
+                    </tr>
+                    <tr>
+                        <td>Martes</td> 
+                        <td>9:30 AM</td>
+                        <td>20:00 PM</td>
+                    </tr>
+                    <tr>
+                        <td>Miercoles</td>
+                        <td>9:30 AM</td>
+                        <td>20:00 PM</td>
+                    </tr>
+                    <tr>
+                        <td>Jueves</td>
+                        <td>9:30 AM</td>
+                        <td>20:00 PM</td>
+                    </tr>
+                    <tr>
+                        <td>Viernes</td>
+                        <td>9:30 AM</td>
+                        <td>20:00 PM</td>
+                    </tr>
+                    <tr>
+                        <td>Sabado</td>
+                        <td>9:30 AM</td>
+                        <td>13:30 PM</td>
+                    </tr>    
+                    
+                </tbody>
+
+            </table>
+
+        </section>
+
+        <section>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13090.739987415027!2d-58.384428!3d-34.8892556!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2a229c3520873a19!2sHidroBombaSur!5e0!3m2!1ses-419!2sar!4v1668666059406!5m2!1ses-419!2sar" width="600" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+
+        <footer>
+            <ul>
+                <li>whatsapp</li>
+                <li>Facebook</li>
+                <li>Instagra</li>
+                <li>Telefono</li>
+            </ul>
+        </footer>
+
+    </main>
+</body>
+</html>
